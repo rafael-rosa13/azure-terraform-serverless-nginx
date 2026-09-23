@@ -1,0 +1,13 @@
+# Descartar pastas temporárias do Terraform
+.terraform/
+
+# Descartar arquivos de estado (contêm dados sensíveis e históricos)
+*.tfstate
+*.tfstate.backup
+
+# Descartar arquivos de variáveis automáticas ou senhas locais
+*.tfvars
+*.tfvars.json
+
+# Descartar o arquivo de lock de provedores
+.terraform.lock.hcl
